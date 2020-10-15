@@ -1,0 +1,14 @@
+.header__lang-link{
+    color: #FFFFFF;
+    font-family: "Inter";
+    font-size: 24px;
+    align-self: flex-end;
+    text-align: right;
+    text-decoration: none;
+    margin-right: 148px;
+    
+}
+
+.header__lang-link:active{
+    text-decoration: underline;
+}
