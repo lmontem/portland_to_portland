@@ -1,0 +1,8 @@
+.place__website-link{
+    font-size: 18px;
+    font-weight: normal;
+    color: #FFFFFF;  
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 2 / 3;
+}

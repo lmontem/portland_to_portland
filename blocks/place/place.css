@@ -1,0 +1,16 @@
+@import url('/blocks/place/__title/place__title.css');
+@import url('/blocks/place/__image/place__image.css');
+@import url('/blocks/place/__website-heading/place__website-heading.css');
+@import url('/blocks/place/__website-link/place__website-link.css');
+@import url('/blocks/place/__paragraph/place__paragraph.css');
+
+.place{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    max-height: 584px;
+    max-width: 984px;
+    padding-bottom: 80px;
+    column-gap: 40px;
+    row-gap: 24px;
+}
