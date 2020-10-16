@@ -1,0 +1,13 @@
+@import url('/blocks/intro/__title/intro__title.css');
+@import url('/blocks/intro/__subtitle/intro__subtitle.css');
+@import url('/blocks/intro/__text/intro__text.css');
+@import url('/blocks/intro/__list/intro__list.css');
+
+
+.intro{
+    padding-top: 92px;
+    max-width: 690px;
+    display: flex;
+    flex-direction: column;
+    
+}

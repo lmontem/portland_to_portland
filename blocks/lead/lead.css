@@ -5,7 +5,8 @@
 
 .lead{
     min-width: 984px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-rows: 0fr 0fr 0fr 0fr;
+    justify-content: center;    
+    
 }
