@@ -1,0 +1,12 @@
+@import url('/blocks/photo-grid/__items/photo-grid__items.css');
+@import url('/blocks/photo-grid/__item/photo-grid__item.css');
+
+.photo-grid{
+    max-width: 1184px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 16px;
+    margin-left: 48px;
+    margin-right: 48px;
+}
