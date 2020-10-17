@@ -1,6 +1,8 @@
 @import url('/blocks/place/place.css');
 
 .places{
-    max-width: 984px;   
-    
+    max-width: 984px;  
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
 }

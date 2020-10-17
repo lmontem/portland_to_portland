@@ -1,0 +1,10 @@
+.cover__image{
+    width: 1184px;
+    height: 740px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}

@@ -1,0 +1,18 @@
+@import url('./__title/cover__title.css');
+@import url('./__subtitle/cover__subtitle.css');
+@import url('./__image/cover__image.css');
+
+.cover{
+    width: 1184px;
+    height: 740px;
+    margin-left: 48px;  
+    background-image: url('../../../images/__background.png');
+    background-size: cover;  
+    transition:  transition: opacity 5s linear ease-out;
+    
+
+}
+
+.cover:hover{
+    opacity: .3;
+}

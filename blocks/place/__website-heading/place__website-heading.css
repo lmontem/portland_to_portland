@@ -2,7 +2,5 @@
     color:#AAAAAA;
     font-size: 12px;
     font-weight: normal;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row: 1 / 2;
+    margin-bottom: 12px;
 }
