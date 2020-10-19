@@ -1,7 +1,7 @@
-@import url('/blocks/intro/__title/intro__title.css');
-@import url('/blocks/intro/__subtitle/intro__subtitle.css');
-@import url('/blocks/intro/__text/intro__text.css');
-@import url('/blocks/intro/__list/intro__list.css');
+@import url('./__title/intro__title.css');
+@import url('./__subtitle/intro__subtitle.css');
+@import url('./__text/intro__text.css');
+@import url('./__list/intro__list.css');
 
 
 .intro{
@@ -15,11 +15,13 @@
 @media screen and (max-width: 768px){
     .intro{
         max-width: 720px;
+        padding-top: 88px;
     }
 }
 
 @media screen and (max-width: 320px){
     .intro{
         max-width: 288px;
+        padding-top: 64px;
     }
 }

@@ -6,7 +6,7 @@
 .lead{
     min-width: 984px;
     display: grid;
-    grid-template-rows: 200px 32px 72px 64px 615px 8px 14px ;
+    grid-template-rows: 200px 32px 72px 64px 1fr 8px 14px;
     justify-content: center;   
     padding-top: 58px; 
     
@@ -16,6 +16,7 @@
     .lead{
         min-width: 928px;
         padding-top: 50px;
+        grid-template-rows: 200px 32px 72px 56px 1fr 8px 14px;
     }
 }
 
@@ -23,6 +24,7 @@
     .lead{
         min-width: 768px;
         padding-top: 50px;
+        grid-template-rows: 200px 32px 72px 56px 1fr 8px 14px;
     }
 }
 
@@ -30,5 +32,6 @@
     .lead{
         min-width: 320px;
         padding-top: 50px;
+        grid-template-rows: 88px 16px 40px 40px 1fr 8px 14px;
     }
 }

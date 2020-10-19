@@ -1,9 +1,9 @@
-@import url('/blocks/place/__column/place__column.css');
-@import url('/blocks/place/__title/place__title.css');
-@import url('/blocks/place/__image/place__image.css');
-@import url('/blocks/place/__website-heading/place__website-heading.css');
-@import url('/blocks/place/__website-link/place__website-link.css');
-@import url('/blocks/place/__paragraph/place__paragraph.css');
+@import url('./__column/place__column.css');
+@import url('./__title/place__title.css');
+@import url('./__image/place__image.css');
+@import url('./__website-heading/place__website-heading.css');
+@import url('./__website-link/place__website-link.css');
+@import url('./__paragraph/place__paragraph.css');
 
 .place{
     display: flex;
