@@ -1,5 +1,5 @@
-@import url('__items/photo-grid__items.css');
-@import url('__item/photo-grid__item.css');
+@import url('./__items/photo-grid__items.css');
+@import url('./__item/photo-grid__item.css');
 
 .photo-grid{
     max-width: 1184px;
