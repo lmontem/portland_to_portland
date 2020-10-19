@@ -6,3 +6,21 @@
     width: 100%;
     margin-bottom: 32px;
 }
+
+@media screen and (max-width: 1024px){
+    .intro__text{
+        margin-left: 48px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .intro__text{
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .intro__text{
+        margin-left: 16px;
+    }
+}

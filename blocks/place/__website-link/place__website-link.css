@@ -1,7 +1,19 @@
 .place__website-link{
     font-size: 18px;
     font-weight: normal;
+    line-height: 1.2;
     color: #FFFFFF;  
     display:inline-block;
     margin-bottom: 48px;
+}
+
+.place__website-link:hover{
+    opacity: .8;
+
+}
+
+@media screen and (max-width: 320px){
+    .place__website-link{
+        display: none;
+    }
 }

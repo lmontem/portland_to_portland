@@ -1,14 +1,24 @@
+@import url('../__lang-link/header__lang-link_en.css');
+@import url('../__lang-link/header__lang-link_es.css');
+
 .header__lang-link{
     color: #FFFFFF;
     font-family: "Inter";
     font-size: 24px;
+    line-height: 28px;
     align-self: flex-end;
     text-align: right;
     text-decoration: none;
-    
     
 }
 
 .header__lang-link:active{
     text-decoration: underline;
+}
+
+@media screen and (max-width: 320px){
+    .header__lang-link{
+        font-size: 18px;
+        line-height: 1.11;
+    }
 }

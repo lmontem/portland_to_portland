@@ -6,3 +6,23 @@
     margin-left: 148px;
     margin-bottom: 32px;
 }
+
+@media screen and (max-width: 1024px){
+    .intro__subtitle{
+        margin-left: 48px;
+
+    }
+}
+
+@media screen and (max-width: 768px){
+    .intro__subtitle{
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .intro__subtitle{
+        margin-left: 16px;
+        line-height: 1.25;
+    }
+}

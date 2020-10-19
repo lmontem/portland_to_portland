@@ -1,6 +1,13 @@
 .place__website-heading{
     color:#AAAAAA;
     font-size: 12px;
+    line-height: 12px;
     font-weight: normal;
     margin-bottom: 12px;
+}
+
+@media screen and (max-width: 320px){
+    .place__website-heading{
+        display: none;
+    }
 }

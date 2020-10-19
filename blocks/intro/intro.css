@@ -11,3 +11,15 @@
     flex-direction: column;
     
 }
+
+@media screen and (max-width: 768px){
+    .intro{
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .intro{
+        max-width: 288px;
+    }
+}
