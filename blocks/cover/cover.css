@@ -6,7 +6,7 @@
     width: 1184px;
     height: 740px;
     margin-left: 48px;  
-    background-image: url('../../../images/__background.png');
+    background-image: url('../../images/__background.png');
     background-size: cover;  
     transition: opacity 5s linear ease-out;
     
