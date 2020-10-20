@@ -1,26 +1,26 @@
 
 @import url('./__lang-link/header__lang-link.css');
-@import url('../logo/logo.css');
+
 
 .header{
     min-width:984px;
     padding-top: 34px;
-    display: grid;
-    grid-template-columns: 148px 10fr 720px 1fr 18px 1fr 148px;
-    grid-template-rows: 44px;
+    font-family: "Inter",Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 1024px){
     .header{
          min-width:928px;       
-         grid-template-columns: 48px 10fr 664px 1fr 18px 1fr 48px;
+        
      }
 }
 
 @media screen and (max-width: 768px){
     .header{
          min-width:720px;        
-         grid-template-columns: 24px 10fr 456px 1fr 18px 1fr 24px;
+        
      }
 }
 
@@ -28,7 +28,6 @@
     .header{
          padding-top: 20px;
          min-width:288px;
-         grid-template-rows: 36px;
-         grid-template-columns: 16px 1fr 71px 1fr 18px 1fr 16px;
+         
      }
 }

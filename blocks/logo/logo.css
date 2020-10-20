@@ -1,17 +1,26 @@
 .logo{
     max-width: 190px;
     max-height: 44px;
-    grid-column: 2 / 3;
+    padding-left: 148px;
     
 }
 
+@media screen and (max-width: 1024px){
+    .logo{
+        padding-left: 48px;
+    }
+}
 
 
-
+@media screen and (max-width: 768px){
+    .logo{
+        padding-left: 24px;
+    }
+}
 
 @media screen and (max-width: 320px){
     .logo{
-        
+        padding-left: 16px;
         width: 156px;
         height: 36px;
     }
