@@ -2,28 +2,11 @@
     font-size: 10px;
     font-weight: normal;
     line-height: 1.4;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 148px;
     text-transform: uppercase;
-    grid-row: 7 / 8;
+    letter-spacing: 0.15em;
+    text-align: left;
+    margin-top: 8px;
 }
 
-@media screen and (max-width: 1024px){
-    .lead__caption{
-        margin-left: 48px;
-}
-}
 
-@media screen and (max-width: 768px){
-    .lead__caption{
-        margin-left: 24px;
-    }
-}
-
-@media screen and (max-width: 320px){
-    .lead__caption{
-        margin-left: 16px;
-    }
-}
 
