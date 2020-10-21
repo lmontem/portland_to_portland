@@ -7,10 +7,10 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 16px;
-    padding: 92px 48px;
+    padding: 92px;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1184px){
    .photo-grid{
     max-width: 928px;
     grid-gap: 14px;

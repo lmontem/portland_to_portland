@@ -8,14 +8,9 @@
     margin-left: 48px;  
     background-image: url('../../images/__background.png');
     background-size: cover;  
-    transition: opacity 5s linear ease-out;
     
-
 }
 
-.cover:hover{
-    opacity: .8;
-}
 
 @media screen and (max-width: 1024px){
     .cover{
