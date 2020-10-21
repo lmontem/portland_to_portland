@@ -1,4 +1,4 @@
-@import url('./__items/photo-grid__items.css');
+
 @import url('./__item/photo-grid__item.css');
 
 .photo-grid{
@@ -7,7 +7,7 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 16px;
-    padding: 92px 48px
+    padding: 92px 48px;
 }
 
 @media screen and (max-width: 1024px){
@@ -30,7 +30,7 @@
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px){
     .photo-grid{
         max-width: 288px;
         grid-template-columns: repeat(1, 1fr);

@@ -5,8 +5,9 @@
     font-weight: normal;
     margin-right: 18px;
     transition: opacity 1s linear ease-in;
-    display: inline-block;
     margin-top: 92px;
+    align-self: flex-end;
+    
 }
 
 .footer__link:hover{

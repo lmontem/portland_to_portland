@@ -1,4 +1,4 @@
-@import url('./__column/place__column.css');
+
 @import url('./__title/place__title.css');
 @import url('./__image/place__image.css');
 @import url('./__website-heading/place__website-heading.css');
@@ -7,7 +7,7 @@
 
 .place{
     display: flex;
-    min-height: 584px;
+    
     max-width: 984px;
     padding-bottom: 80px;
 
@@ -16,14 +16,14 @@
 @media screen and (max-width: 1024px){
     .place{
         max-width: 928px;
-        min-height: 564px;
+        
     }
 }
 
 @media screen and (max-width: 768px){
     .place{
         max-width: 720px;
-        min-height: 509px;
+        
     }
 
 }
@@ -31,7 +31,7 @@
 @media screen and (max-width: 320px){
     .place{
         max-width: 320px;
-        min-height: 912px;
+        
         display: block;
         
     }

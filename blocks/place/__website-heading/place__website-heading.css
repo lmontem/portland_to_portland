@@ -4,6 +4,7 @@
     line-height: 12px;
     font-weight: normal;
     margin-bottom: 12px;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 320px){
