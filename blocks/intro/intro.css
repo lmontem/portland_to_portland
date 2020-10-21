@@ -10,13 +10,20 @@
     max-width: 690px;
     display: flex;
     flex-direction: column;
-    
+    margin-left: 148px;
+}
+
+@media screen and (max-width: 1024px){
+    .intro{
+        margin-left: 48px;
+    }
 }
 
 @media screen and (max-width: 768px){
     .intro{
         max-width: 720px;
         padding-top: 88px;
+        margin-left: 24px;
     }
 }
 
@@ -24,5 +31,6 @@
     .intro{
         max-width: 288px;
         padding-top: 64px;
+        margin-left: 16px;
     }
 }

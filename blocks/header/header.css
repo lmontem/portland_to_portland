@@ -8,12 +8,15 @@
     font-family: "Inter",Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: space-between;
+    width: calc(100% - 2*148px);
+    margin: 0 auto;
+    max-width: 984px;
 }
 
 @media screen and (max-width: 1024px){
     .header{
-     
-        
+        width: calc(100% - 2*48px);
+        max-width: 924px;
      }
 }
 
