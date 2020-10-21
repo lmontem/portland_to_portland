@@ -4,31 +4,15 @@
 @import url('./__image/lead__image.css');
 @import url('./__caption/lead__caption.css');
 
-.lead{
-    min-width: 984px;
-    margin: 0 auto;    
+.lead{  
     padding-top: 58px; 
     
 }
 
 @media screen and (max-width: 1024px){
     .lead{
-        min-width: 928px;
+
         padding-top: 50px;
-        
-    }
-}
-
-@media screen and (max-width: 768px){
-    .lead{
-        min-width: 768px;
-        
-    }
-}
-
-@media screen and (max-width: 320px){
-    .lead{
-        min-width: 320px;
         
     }
 }

@@ -4,7 +4,6 @@
 
 
 .header{
-    min-width:984px;
     padding-top: 34px;
     font-family: "Inter",Arial, Helvetica, sans-serif;
     display: flex;
@@ -13,14 +12,14 @@
 
 @media screen and (max-width: 1024px){
     .header{
-         min-width:928px;       
+     
         
      }
 }
 
 @media screen and (max-width: 768px){
     .header{
-         min-width:720px;        
+       
         
      }
 }
@@ -28,7 +27,7 @@
 @media screen and (max-width: 320px){
     .header{
          padding-top: 20px;
-         min-width:288px;
+
          
      }
 }
