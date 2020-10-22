@@ -8,20 +8,23 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1144px){
     .places{
         max-width: 928px;
+        width: calc(100% - 2*48px);
     }
 }
 
 @media screen and (max-width: 768px){
     .places{
         max-width: 720px;
+        width: calc(100% - 2*24px);
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 576px){
     .places{
         max-width: 320px;
+        width: calc(100%);
     }
 }

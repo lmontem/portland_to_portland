@@ -1,20 +1,24 @@
 .cover__image{
     max-width: 1184px;
-    width: calc(100% - 2*48px); 
+    min-height: 740px;
+    width: 100%;
+    margin: 0;
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     align-items: center;
+    justify-content: center;
     position: relative;
 }
 
 .cover__image::before{
+    max-width: 1184px;
+    min-height: 740px;
+    width: 100%;
+    margin: 0;
     position: absolute;
     top: 0;
-    left: 0;
-    width: calc(100% - 2*48px);      
-    max-width: 1184px;    
+    left: 0;   
     content:"";
     background-color: #2A2C2F;
     opacity: 0.3;
@@ -28,18 +32,26 @@
     .cover__image{
         width: 100%;
         max-width: 1024px;
-        height: auto;
+        min-height: 640px;
       }        
-       
+      .cover__image::before{
+        max-width: 1024px;
+        min-height: 640px;
+        width: 100%;
+      }
    }
 
 @media screen and (max-width: 768px){
     .cover__image{
         width: 100%;
         max-width: 768px;
-        height: auto;
+        min-height: 480px;
       }
-       
+      .cover__image::before{
+        max-width: 768px;
+        min-height: 480px;
+        width: 100%;
+      }       
         
     }
 
@@ -47,8 +59,12 @@
     .cover__image{
         width: 100%;
         max-width: 425px;
-        height: auto;
+        min-height: 200px;
       }       
-        
+      .cover__image::before{
+        max-width: 425px;
+        min-height: 200px;
+        width: 100%;
+      }
     
 }

@@ -7,9 +7,10 @@
     
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px){
     .footer__list{
-    flex-direction: column;
-    justify-content: space-evenly;
+        margin: 0;
+        flex-direction: column;
+        
 }
 }

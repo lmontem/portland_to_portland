@@ -30,14 +30,11 @@
 
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 576px){
     .place{
-        max-width: 320px;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        
-        
-        
+        grid-template-rows: fit-content(320px) fit-content(320px) 1fr;
+        grid-gap: 32px;
     }
 
     
