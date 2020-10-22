@@ -5,7 +5,8 @@
     text-align: center;    
     color: #FFFFFF;
     max-width: 320px;    
-    z-index: 2;
+    
+    margin: 0;
 }
 
 @media screen and (max-width: 320px){

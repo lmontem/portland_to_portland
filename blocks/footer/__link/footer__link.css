@@ -14,28 +14,20 @@
     opacity: .8;
 }
 
-.footer__link:first-of-type{
-    margin-left: 48px;
-}
+
 
 @media screen and (max-width: 720px){
     .footer__link{
         margin-top: 88px;
     }
-    .footer__link:first-of-type{
-        margin-left: 24px;
-    }
 }
-
+   
 @media screen and (max-width: 320px){
     .footer__link{
         font-size: 24px;
         line-height: 1;
-        margin-top: 32px;
-        margin-left: 16px;
+        
+        
     }
-    .footer__link:first-of-type{
-        margin-top: 64px;
-        margin-left: 16px;
-    }
+  
 }

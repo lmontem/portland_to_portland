@@ -12,6 +12,7 @@
     grid-column-gap: 40px;
     grid-row-gap: 48px;
     padding-bottom: 80px;
+    width: 100%;
 }
 
 @media screen and (max-width: 1024px){
@@ -32,8 +33,10 @@
 @media screen and (max-width: 320px){
     .place{
         max-width: 320px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         
-        display: block;
+        
         
     }
 

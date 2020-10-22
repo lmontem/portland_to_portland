@@ -2,9 +2,11 @@
     font-size: 72px;
     line-height: 1.06;
     font-weight: 900;    
-    color:#FFFDFD;   
+    color:#FFFDFD;
+    margin-top: 0;   
     margin-bottom: 32px;
-    z-index: 2;
+   
+    
 }
 
 
