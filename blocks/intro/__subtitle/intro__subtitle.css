@@ -8,18 +8,6 @@
     margin-bottom: 32px;
 }
 
-@media screen and (max-width: 1024px){
-    .intro__subtitle{
-
-
-    }
-}
-
-@media screen and (max-width: 768px){
-    .intro__subtitle{
-
-    }
-}
 
 @media screen and (max-width: 320px){
     .intro__subtitle{

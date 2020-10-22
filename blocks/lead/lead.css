@@ -14,7 +14,6 @@
 @media screen and (max-width: 1024px){
     .lead{
         width: calc(100% - 2*48px);
-        margin: 0 auto;
         max-width: 928px;
         padding-top: 50px;
         
@@ -23,19 +22,14 @@
 
 @media screen and (max-width: 768px){
     .lead{
-        width: calc(100%);
-        margin: 0 auto;
-        padding-top: 50px;
+        width: 100%;      
         
     }
 }
 
 @media screen and (max-width: 320px){
-    .lead{
-        width: calc(100%);
-        margin: 0 auto;
+    .lead{       
         max-width: 320px;
-        padding-top: 50px;
         
     }
 }
