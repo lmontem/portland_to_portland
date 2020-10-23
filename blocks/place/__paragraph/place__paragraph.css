@@ -14,7 +14,7 @@
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 912px){
     .place__paragraph{
         max-width: 352px;
         font-size: 16px;
@@ -22,7 +22,7 @@
     }
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 640px){
     .place__paragraph{
         max-width: 288px;
         margin-left: 16px;
